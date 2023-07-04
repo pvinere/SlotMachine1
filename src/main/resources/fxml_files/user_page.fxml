@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC300;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slotmachine1.main_pages.User_page">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" prefHeight="52.0" prefWidth="268.0" text="The Slot Machine">
+         <font>
+            <Font name="Felix Titling" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="setUsernameLabel" alignment="CENTER" layoutX="500.0" layoutY="14.0" prefHeight="29.0" prefWidth="79.0" text="username">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="514.0" layoutY="353.0" mnemonicParsing="false" onAction="#backButton" prefHeight="8.0" prefWidth="65.0" style="-fx-background-color: #FF5733;" text="Logout" textFill="#ffc300" />
+      <Button layoutX="92.0" layoutY="151.0" mnemonicParsing="false" onAction="#btt_casino1" prefHeight="25.0" prefWidth="112.0" text="Casino 1" />
+      <Button layoutX="388.0" layoutY="151.0" mnemonicParsing="false" onAction="#btt_casino2" prefHeight="25.0" prefWidth="112.0" text="Casino 2" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC300;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slotmachine1.admin_pages._admin_voucher_set">
+    <children>
+        <Button layoutX="519.0" layoutY="365.0" mnemonicParsing="false" onAction="#backButton" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #164a9e;" text="Back" textFill="WHITE" />
+      <Label alignment="CENTER" layoutX="197.0" layoutY="14.0" prefHeight="35.0" prefWidth="207.0" text="Vouchers Control">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="67.0" prefHeight="25.0" prefWidth="122.0" text="Set inital vouchers:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="init_voucher" layoutX="152.0" layoutY="67.0" prefHeight="25.0" prefWidth="167.0" />
+      <Button layoutX="337.0" layoutY="67.0" mnemonicParsing="false" onAction="#setInitialVoucher" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #164a9e;" text="Set" textFill="WHITE" />
+    </children>
+</AnchorPane>

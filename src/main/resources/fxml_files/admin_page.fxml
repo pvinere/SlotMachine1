@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC300;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.slotmachine1.main_pages.Admin_page">
+    <children>
+        <Label alignment="CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="14.0" prefHeight="52.0" prefWidth="482.0" text="The Slot Machine - Admin panel">
+            <font>
+                <Font name="Felix Titling" size="27.0" />
+            </font>
+        </Label>
+        <Label fx:id="setUsernameAdminLabel" alignment="CENTER" layoutX="141.0" layoutY="64.0" prefHeight="29.0" prefWidth="79.0" text="username">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Button layoutX="514.0" layoutY="353.0" mnemonicParsing="false" onAction="#backButton" prefHeight="8.0" prefWidth="65.0" style="-fx-background-color: #FF5733;" text="Logout" textFill="#ffc300" />
+      <Label layoutX="23.0" layoutY="66.0" prefHeight="25.0" prefWidth="118.0" text="Administrator:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="101.0" prefHeight="17.0" prefWidth="127.0" text="User manage account :" />
+      <Button layoutX="176.0" layoutY="97.0" mnemonicParsing="false" onAction="#viewUsers" style="-fx-background-color: #DAF7A6;" text="View all users" />
+      <Button layoutX="284.0" layoutY="97.0" mnemonicParsing="false" onAction="#updateUsers" style="-fx-background-color: #DAF7A6;" text="Update user's creds" />
+      <Button layoutX="176.0" layoutY="144.0" mnemonicParsing="false" onAction="#voucher_control" style="-fx-background-color: #DAF7A6;" text="Vouchers control" />
+      <Button layoutX="176.0" layoutY="200.0" mnemonicParsing="false" onAction="#casinos_graf" style="-fx-background-color: #DAF7A6;" text="Casinos Wins/Loses" />
+    </children>
+</AnchorPane>
